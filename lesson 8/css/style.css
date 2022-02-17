@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: #4F696A;
+}
+.container {
+  width: 100%;
+  height: 200vh;
+}
+.box {
+  width: 600px;
+  background-color: #111F20;
+  margin: 50px auto;
+}
+.container .box header h1 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 300;
+  margin: 0;
+  padding: 30px 45px;
+}
+.container .box main img {
+  width: 400px;
+  padding: 20px 100px;
+}
+.container .box main p {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+.container .box footer h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  font-size: 35px;
+  padding: 10px 120px;
+  padding-bottom: 45px;
+}
