@@ -1,0 +1,249 @@
+body {
+  background-color: #fafafa;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+.header {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.logo img {
+  width: 35px;
+  height: 36px;
+  position: absolute;
+  top: -7px;
+  left: 0;
+}
+.logo a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 37px;
+}
+/* .logo span {
+  
+} */
+.nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+.nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+.registration ul li {
+  display: inline;
+  margin-left: 25px;
+}
+.registration ul li a, a {
+  text-decoration: none;
+  color: black;
+}
+.sign {
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  padding: 12px 45px;
+  background-color: transparent;
+  color: #f53855 !important;
+}
+.desc {
+  display: flex;
+  margin-top: 70px;
+}
+.desc .text h1 {
+  font-size: 55px;
+}
+.desc .text p {
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+.start-btn {
+  background-color: rgb(245, 56, 56);
+  color: #fff;
+  padding: 20px 90px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 70px 0.0001px rgb(245, 56, 56);
+}
+
+.stats {
+  width: 1000px;
+  background-color: rgb(255, 255, 255);
+  padding: 60px 50px;
+  margin: 110px auto 0 auto;
+}
+.stats__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 90px;
+}
+.stats__item {
+  display: inline;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.stats__item img {
+  position: absolute;
+  left: -100px;
+}
+.stats__item span {
+  text-align: center;
+}
+.feauture {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.feauture__text h2 {
+  font-size: 35px;
+}
+.feauture__text p {
+  margin: 20px auto !important;
+  font-size: 18px;
+}
+.feauture__item {
+  list-style: none;
+}
+.feauture__item img{
+  display: inline;
+}
+.feauture__item p {
+  display: inline;
+}
+.feauture__text {
+  margin-left: 80px;
+}
+.pricing h2, p{
+  text-align: center;
+}
+.pricing h2 {
+  font-size: 35px;
+  margin: 50px 0px 20px 0px;
+}
+.pricing__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+.pricing__item {
+  border: 1px solid rgb(138, 135, 167);
+  border-radius: 10px;
+  padding: 85px 60px;
+  background-color: #fff;
+}
+.pricing__item img {
+  padding-left: 23px;
+}
+.pricing__item h4 {
+  margin: 25px auto;
+  text-align: center;
+}
+.price {
+  margin: 30px auto;
+  display: block;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.sign {
+  margin-left: 30px !important;
+}
+.select {
+  background-color: rgb(245, 56, 56);
+  color: #fff;
+  padding: 13px 80px;
+  border-radius: 15px;
+}
+.testimonials h2 {
+  margin: 35px;
+  text-align: center;
+  font-size: 32px;
+}
+.testimonials p {
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+.aside {
+  display: flex;
+  justify-content: space-around;
+}
+.help h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 40px auto;
+}
+.help p {
+  margin-bottom: 45px;
+}
+.help__list {
+  display: flex;
+  justify-content: space-between;
+}
+.help__item {
+  border: 1px solid rgb(153, 152, 170);
+  border-radius: 10px;
+  padding: 25px;
+  flex-basis: 31%;
+}
+.help__item img {
+  width: 80px !important;
+  height: 85px !important;
+}
+.help__item__title {
+  display: flex;
+}
+.help__item__title div {
+  padding-left: 45px;
+  padding-top: 25px;
+}
+.subs {
+  display: flex;
+  justify-content: space-between;
+  margin: 145px auto;
+  background-color: #fff;
+  padding: 80px 60px;
+}
+.subs h2 {
+  font-size: 35px;
+}
+.subs p {
+  padding: 25px 0 !important;
+}
+.subs a {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px 45px !important;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.footer__list {
+  flex-basis: 8%;
+  padding-bottom: 60px;
+}
+.footer__list li {
+  margin-top: 10px;
+  width: 150px !important;
+}
+.footer-text p {
+  display: block;
+  padding: 30px 0;
+}

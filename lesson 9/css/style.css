@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../image/bacg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+h3, h2, h1, {
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 800px;
+}
+.container .box {
+  width: 70%;
+  height: 500px;
+  /* background-color: #fff; */
+  background: linear-gradient(45deg, rgb(226, 240, 255), rgb(255, 240, 155), rgb(255, 229, 79));
+  padding: 25px 0 520px 25px;
+  border-radius: 25px;
+  margin: 70px auto;
+}
+.container .box .imgBox {
+  width: 480px;
+  height: 390px;
+  background-image: url(../image/real.jpg);
+  background-size: 100%;
+  background-position: top 25px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 0;
+  margin-top: 40px;
+}
+.container .box .shopping-bar {
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  float: right;
+  margin-top: 38px;
+  padding-right: 20px;
+}
+.container .box .shopping-bar h2 {
+  padding: 10px 0;
+  font-size: 35px;
+  font-weight: 600;
+}
+.container .box .shopping-bar .narx {
+  color: rgb(34, 84, 175);
+  font-size: 30px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+.container .box .shopping-bar h3 {
+  color: rgb(34, 84, 175);
+  padding: 0px 0;
+}
+.container .box .shopping-bar p {
+  font-size: 20px;
+}
+.addBtn {
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 15px 120px;
+  background-color: rgb(51, 10, 233);
+  color: #fff;
+  font-size: 18px;
+}
+.container .box .sizeBox {
+  width: 500px;
+  height: 50px;
+  margin: -90px 0 0 0;
+  display: inline-block;
+}
+.container .box .sizeBox p {
+  padding: 20px 0;
+}
+.container .box .sizeBtn {
+  background-color: #fff;
+  border: 2px solid rgb(0, 143, 112);
+  padding: 10px 14px;
+  color: rgb(0, 143, 112);
+  display: inline;
+}
